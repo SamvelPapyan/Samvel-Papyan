@@ -4,8 +4,45 @@
 		<script src="/socket.io/socket.io.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
 		<script src="script.js"></script>
+		<style>
+			.colorBox{
+				width:100px;
+				height:100px;
+				border:1px solid;
+			}
+		</style>
 	</head>
 	<body>
 		<h2></h2>
+		<table style="float:right;">
+			<tr>
+				<th>Season</th>
+				<th>Color</th>
+			</tr>
+			<tr>
+				<td>Spring</td>
+				<td>
+					<div class="colorBox" style="background-color:lightgreen"></div>
+				</td>
+			</tr>
+			<tr>
+				<td>Summer</td>
+				<td>
+					<div class="colorBox" style="background-color:rgb(255, 204, 204)"></div>
+				</td>
+			</tr>
+			<tr>
+				<td>Autumn</td>
+				<td>
+					<div class="colorBox" style="background-color:rgb(204, 153, 255)"></div>
+				</td>
+			</tr>
+			<tr>
+				<td>Winter</td>
+				<td>
+					<div class="colorBox" style="background-color:white"></div>
+				</td>
+			</tr>
+		</table>
 	</body>
 </html>
